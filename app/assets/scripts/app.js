@@ -22,4 +22,8 @@ maskImage.mask([
     [.8, .95, 1, .7],
     [1, 1],
     [0, 1],
-])
+]);
+
+maskImage.getImg((img) => {
+    console.log(img);
+});
